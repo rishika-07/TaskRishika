@@ -9,10 +9,32 @@ yarn install
 yarn dev
 ```
 # github-repo-creator
-
 Welcome to the github-repo-creator plugin!
-
 _This plugin was created through the Backstage CLI_
-you'll be able to access it by running `yarn start` in the root directory
-navigating to [/github-repo-creator] or (http://localhost:3000/github-repo-creator)
-You can also serve the plugin in isolation by running `yarn start` in the plugin directory.
+
+    # Setup
+    To set up the github-repo-creator plugin, follow these steps:
+    #Clone the repository 
+    #Configure your GitHub personal access token:
+    ```sh
+REACT_APP_GITHUB_TOKEN=your_github_personal_access_token_here
+```
+# Usage
+To use the github-repo-creator plugin:
+# Start the development server:
+```sh
+yarn dev
+```
+#Open your Backstage development environment in a web browser (typically http://localhost:3000).
+#Navigate to the GitHub Repo Creator plugin page.
+#Fill out the form with the repository name, description, and select the visibility (Public or Private).
+#Click on the "Create Repository" button to create the GitHub repository.
+#check the displayed message for success or error feedback.
+
+url : (http://localhost:3000/github-repo-creator) or navigate to [/github-repo-creator]
+# You can also serve the plugin in isolation by running `yarn start` in the plugin directory.
+
+
+
+
+
